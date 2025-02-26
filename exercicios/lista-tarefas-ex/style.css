@@ -1,0 +1,48 @@
+body {
+    background-color: 	#28282B;
+}
+
+p {
+    color: white;
+}
+
+#list {
+    border: 1px solid white;
+    width: 400px;
+    padding: 10px;
+    margin-top: 12px;
+    border-radius: 18px;
+}
+
+.ex {
+    background-color: white;
+    padding: 16px;
+    border-radius: 18px;
+    margin-top: 10px;
+}
+
+.ex span {
+    width: 300px;
+    display: inline-block;
+}
+
+#editEx {
+
+    margin-top: 12px;
+    border-radius: 18px;
+    width: 450px;
+    padding: 10px;
+    border: 1px solid white;
+}
+#editEx input {
+    width: 100px;
+}
+
+#editEx span {
+    color: white;
+    padding: 5px;
+}
+
+#editEx h3 {
+    color: white;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <p>Nome do exercício:</p>
+        <input type="text" id="nomeEx"><br>
+        <button id="btnSalvarEx" onclick="addEx()">Salvar</button>
+
+        <div id="list">
+            <div class="ex">
+                <span>Leg Press</span>
+
+                <button>Editar</button>
+                
+            </div>
+
+
+        </div>
+
+        <div id="editEx">
+
+            <h3 id="nomeExEdit">Nome do exercício</h3>
+
+            <p>
+            <span>Repetições:<input type="number" id="rep"></span>
+            <span>Peso:<input type="number" id="peso"></span>
+            <button id="salvar">Add série</button>
+            </p>
+
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
